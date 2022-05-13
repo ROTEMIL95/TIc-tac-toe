@@ -1,0 +1,46 @@
+.game-info .status {
+    margin-top: 20x;
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .game-info .moves{
+      padding-right: 5px;
+  }
+
+  button{
+   background-image:  linear-gradient(to left, red,orange,rgb(43, 43, 24),green,blue,indigo,violet);
+   color: white;
+   font-weight: bold;
+   font-size: 16px;
+
+  }
+
+  .square {
+    background-image:  linear-gradient(to left, red,orange,rgb(43, 43, 24),green,blue,indigo,violet);
+    border: 3px solid rgb(0, 0, 0);
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  .square:focus {
+    outline: none;
+  }
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  .game {
+  display: flex;
+  direction: row;
+  }
+  
